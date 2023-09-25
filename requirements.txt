@@ -1,0 +1,11 @@
+Command to Run Postgres Docker Container - 
+    docker run --name postgres-nest -p 5432:5432 -e POSTGRES_PASSWORD=postgres -d postgres
+    
+Command to stop the docker container -
+    docker container stop postgres-nest
+
+Command to check for active cntainers - 
+    docker container ls
+    
+Command to delete a container - 
+    docker container rm postgres-nest
